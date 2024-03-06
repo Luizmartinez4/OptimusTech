@@ -1,0 +1,43 @@
+.rodape {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 4em;
+}
+
+.rodape h1 {
+    color: var(--cor-preto);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape h3 {
+    color: var(--cor-cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rodape__email {
+    padding: 1.3em;
+    border-radius: 8px;
+    border: 1px solid rgba(102,112,133, 0.4);
+    width: 15%;
+}
+
+.rodape__cadastro a{
+    margin-left: 1em;
+    padding: 1em;
+    background-color: var(--cor-vermelho);
+    color: var(--cor-branco);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rodape p {
+    padding: 2em;
+    color: var(--cor-creditos);
+    font-size: 16px;
+    font-weight: 400;
+}

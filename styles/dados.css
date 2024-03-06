@@ -1,0 +1,27 @@
+.dados {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dados__container {
+    padding: 1em 4em 3em;
+}
+
+.dados__container h1 {
+    color: var(--cor-vermelho);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.dados__container h3 {
+    padding: 1em 0;
+    color: var(--cor-preto);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dados__container p {
+    color: var(--cor-cinza-claro);
+    font-size: 16px;
+    font-weight: 400;
+}

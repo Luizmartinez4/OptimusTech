@@ -1,0 +1,37 @@
+.opinioes {
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(102,112,133, 0.2);
+    padding: 4em;
+    margin: 0 6em 8em;
+    border-radius: 16px;
+}
+
+.opinioes p, h1, h3, img {
+    background-color: rgba(102,112,133, 0);
+}
+
+.opinioes__texto {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-vermelho);
+}
+
+.opinioes h1 {
+    color: var(--cor-preto);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.opinioes h3 {
+    color: var(--cor-preto);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.opinioes__texto2 {
+    color: var(--cor-cinza-claro);
+    font-size: 14px;
+    font-weight: 400;
+}

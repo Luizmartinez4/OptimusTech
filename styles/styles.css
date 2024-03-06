@@ -1,0 +1,24 @@
+@import url(header.css);
+@import url(sobre.css);
+@import url(dados.css);
+@import url(vagas.css);
+@import url(opinioes.css);
+@import url(rodape.css);
+
+:root {
+    --cor-cinza: #3A404E;
+    --cor-preto: #101828;
+    --cor-vermelho: #8E2424;
+    --cor-cinza-claro: #667085;
+    --cor-branco: #FFFFFF;
+    --cor-creditos: #98A2B3;
+    --fonte-principal: "Inter", sans-serif;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    background-color: var(--cor-branco);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
